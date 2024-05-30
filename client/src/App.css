@@ -1,0 +1,287 @@
+.Activités {
+  text-align: center;
+}
+
+.Activités-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Activités-logo {
+    animation: Activités-logo-spin infinite 20s linear;
+  }
+}
+
+.Activités-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Activités-link {
+  color: #61dafb;
+}
+
+@keyframes Activités-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+/*acceuil*/
+
+.background{
+  background-image: url(https://www.germineo.com/storage/3447/conversions/blog-mineraux-vita-930-x-520-2022-06-07-full.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  
+}
+.parent{
+  
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+ 
+  
+
+  
+}  
+
+
+.parent img{
+  width: 100px;
+  height: 70px;
+  margin-top: 15px;
+}
+.menu{
+  width: 500px;
+  height: 100%;
+ margin-top: 15px;
+ 
+ 
+}
+
+.menu ul{
+ 
+ display: flex;
+margin: 20px ;
+ justify-content: space-around;
+
+ 
+}
+.menu ul li:hover{
+  color: #679463;
+  cursor: pointer;
+  border: 1px solid  ;
+  background-color: #b2d4af;
+
+} 
+
+.menu ul li {
+  
+  align-items: center;
+  color: #063502;
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+text-align: center;
+ list-style: none;
+ 
+ text-decoration: none;
+
+ 
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+/*    
+
+   06668C    427AA1  EBF2FA  679463    A4BD01     */
+.tow{
+  width: 100%;
+  height: 500px;
+  background-color: #679463;
+  
+}
+/*nav*/
+.navv{
+  display: flex;
+  width: 80%;
+  height: 70px;
+  background-image: linear-gradient(to left, #b0ddad,white);
+box-shadow: 0px 0px 12px 0px ;
+align-items: center;
+margin: 0 auto;
+justify-content: space-around;
+}
+.navv img{
+  width: 150px;
+  height: 70px;
+  margin-top: 15px;
+}
+
+
+/*historique*/
+
+.general{
+
+ text-align: center;
+ padding: 20px;
+height: 1000px;
+  background-image: linear-gradient(to right, #a8c7a6, #101a0f);
+
+  
+}
+
+.list{
+  align-items: center;
+  border-radius: 20px;
+  width: 25%;
+  background-color: #eef3ee;
+  text-align: center;
+  padding: 20px;
+height: 1000px;
+}
+.list img{
+  width: 150px;
+  height: 100px;
+
+}
+.lists{
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  display: flex;
+}
+.blocs{
+  flex-direction: column;
+  padding: 10px;
+  margin: 15px;
+  box-shadow:0px 0px 10px 0px ;
+}
+.blocs button{
+
+    background-color: #679463;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 40%;
+  height: 30px;
+  box-shadow: 0px 0px 5px 0px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  
+  
+}
+.blocs button:hover{
+  background-color: #accea9;
+}
+
+
+
+/*service*/
+.service{
+  align-items: center;
+  text-align: center;
+  
+  
+ 
+ 
+
+}
+.tt{
+  align-items: center; background-color: #edf2ed;
+  justify-content: space-around;padding: 20px; border: 1px solid;
+
+  text-align: center;justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  margin: 20px auto;
+  margin-bottom: 30px;
+  box-shadow: 3px 0px 5px 0px ;
+ 
+
+}
+.tt input{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  height: 30px;
+ margin: 18px;
+}
+.tt button {
+  background-color: #679463;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 40%;
+height: 30px;
+box-shadow: 0px 0px 5px 0px;
+border: none;
+color: black;
+cursor: pointer;
+
+}
+.tt button:hover{
+  background-color: #a8c7a6;
+
+
+}
+/*contact*/
+.lkol{
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  line-height: 2px ;
+  
+}
+.famille{
+  width: 70%;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 5px 0px 6px 0px;
+  background-color: #e4efe3;
+  justify-content: space-around;
+  margin: 0 auto ;
+  align-items: center;
+display: flex;
+margin-top: 40px;
+
+}
+.famille:hover{
+background-color: #cad3c9;
+}
+.famille .box11 {
+  color: white;
+  width: 25%;
+  height: 80%;
+  padding: 15px;
+  margin: 20px;
+  background-image: linear-gradient(to bottom, #a8c7a6, #101a0f);
+
+text-align: center;
+font-size: medium;
+font-family: cursive;
+}
